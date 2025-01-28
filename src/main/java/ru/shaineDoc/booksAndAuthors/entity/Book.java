@@ -15,11 +15,11 @@ import java.time.LocalDate;
 @Setter
 public class Book {
     @Id
-    @GeneratedValue (strategy = GenerationType.IDENTITY)
-    private int id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private long id;
     private String title;
     private int releaseYear;
-    @ManyToOne()
+    @ManyToOne
     private Author author;
 
 }
