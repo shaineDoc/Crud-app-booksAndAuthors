@@ -22,4 +22,6 @@ public class Author {
     private LocalDate birthDate;
     @OneToMany(mappedBy = "author", cascade = CascadeType.ALL, orphanRemoval = true)
     List<Book> books;
+
+
 }

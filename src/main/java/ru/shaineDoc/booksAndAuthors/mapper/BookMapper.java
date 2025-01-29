@@ -1,8 +1,11 @@
 package ru.shaineDoc.booksAndAuthors.mapper;
 
+import lombok.Getter;
+import lombok.Setter;
 import ru.shaineDoc.booksAndAuthors.dto.BookDto;
 import ru.shaineDoc.booksAndAuthors.entity.Book;
-
+@Getter
+@Setter
 public class BookMapper {
 
     public static BookDto toBookDto(Book book) {

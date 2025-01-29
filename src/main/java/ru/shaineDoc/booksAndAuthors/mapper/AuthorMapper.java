@@ -1,10 +1,13 @@
 package ru.shaineDoc.booksAndAuthors.mapper;
 
+import lombok.Getter;
+import lombok.Setter;
 import ru.shaineDoc.booksAndAuthors.dto.AuthorDto;
 import ru.shaineDoc.booksAndAuthors.entity.Author;
 
 import java.util.stream.Collectors;
-
+@Getter
+@Setter
 public class AuthorMapper {
 
     public static AuthorDto toAuthorDto(Author author) {
