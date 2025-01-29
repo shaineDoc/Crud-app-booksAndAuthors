@@ -20,6 +20,7 @@ public class Book {
     private String title;
     private int releaseYear;
     @ManyToOne
+    @JoinColumn(name = "author_id")
     private Author author;
 
 

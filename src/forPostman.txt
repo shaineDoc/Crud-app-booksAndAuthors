@@ -1,0 +1,22 @@
+{
+  "name": "Джон Толкиен",
+  "birthDate": "1990-11-11",
+  "books": [
+    {
+      "id": 1,
+      "title": "Властелин колец",
+      "releaseYear": 1954,
+      "author": {
+        "id": 9
+      }
+    },
+    {
+      "id": 2,
+      "title": "Хоббит",
+      "releaseYear": 1937,
+      "author": {
+        "id": 9
+      }
+    }
+  ]
+}
