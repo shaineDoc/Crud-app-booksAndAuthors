@@ -8,6 +8,7 @@ package ru.shaineDoc.booksAndAuthors.service;
  *
  */
 
+import ru.shaineDoc.booksAndAuthors.dto.AuthorDto;
 import ru.shaineDoc.booksAndAuthors.entity.Author;
 import ru.shaineDoc.booksAndAuthors.entity.Book;
 import java.util.List;
@@ -30,4 +31,5 @@ public interface AuthorService {
     List<Book> getBooksFromAuthor(long id);
 
 
+    List<Author> saveAll(List<AuthorDto> authorDtos);
 }

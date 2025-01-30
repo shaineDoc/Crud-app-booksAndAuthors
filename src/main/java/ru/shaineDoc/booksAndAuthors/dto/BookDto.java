@@ -13,7 +13,7 @@ import ru.shaineDoc.booksAndAuthors.entity.Author;
 public class BookDto {
     private String title;
     private int releaseYear;
-    private AuthorDto authorDto;
+    private Long authorId;
 
 
 }

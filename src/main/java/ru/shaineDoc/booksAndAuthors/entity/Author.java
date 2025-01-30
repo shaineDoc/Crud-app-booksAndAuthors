@@ -1,5 +1,6 @@
 package ru.shaineDoc.booksAndAuthors.entity;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -21,7 +22,6 @@ public class Author {
     private String name;
     private LocalDate birthDate;
     @OneToMany(mappedBy = "author", cascade = CascadeType.ALL, orphanRemoval = true)
+    @JsonManagedReference
     List<Book> books;
-
-
 }

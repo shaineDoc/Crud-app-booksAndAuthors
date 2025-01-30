@@ -14,11 +14,10 @@ import java.util.List;
 @Getter
 @Setter
 public class AuthorDto {
+    private Long id;
     private String name;
     private LocalDate birthDate;
     private List<BookDto> books;
-
-
 
 
 }

@@ -1,22 +1,122 @@
-{
-  "name": "Джон Толкиен",
-  "birthDate": "1990-11-11",
-  "books": [
+[
     {
-      "id": 1,
-      "title": "Властелин колец",
-      "releaseYear": 1954,
-      "author": {
-        "id": 9
-      }
+        "name": "Фёдор Достоевский",
+        "birthDate": "1821-11-11",
+        "books": [
+            {"title": "Преступление и наказание", "releaseYear": 1866},
+            {"title": "Идиот", "releaseYear": 1869},
+            {"title": "Бесы", "releaseYear": 1872},
+            {"title": "Братья Карамазовы", "releaseYear": 1880},
+            {"title": "Белые ночи", "releaseYear": 1848},
+            {"title": "Игрок", "releaseYear": 1866}
+        ]
     },
     {
-      "id": 2,
-      "title": "Хоббит",
-      "releaseYear": 1937,
-      "author": {
-        "id": 9
-      }
+        "name": "Лев Толстой",
+        "birthDate": "1828-09-09",
+        "books": [
+            {"title": "Война и мир", "releaseYear": 1869},
+            {"title": "Анна Каренина", "releaseYear": 1877},
+            {"title": "Воскресение", "releaseYear": 1899},
+            {"title": "Крейцерова соната", "releaseYear": 1889},
+            {"title": "Детство", "releaseYear": 1852},
+            {"title": "Севастопольские рассказы", "releaseYear": 1855}
+        ]
+    },
+    {
+        "name": "Александр Пушкин",
+        "birthDate": "1799-06-06",
+        "books": [
+            {"title": "Евгений Онегин", "releaseYear": 1833},
+            {"title": "Борис Годунов", "releaseYear": 1825},
+            {"title": "Капитанская дочка", "releaseYear": 1836},
+            {"title": "Дубровский", "releaseYear": 1841},
+            {"title": "Повести Белкина", "releaseYear": 1831},
+            {"title": "Пиковая дама", "releaseYear": 1834}
+        ]
+    },
+    {
+        "name": "Антон Чехов",
+        "birthDate": "1860-01-29",
+        "books": [
+            {"title": "Чайка", "releaseYear": 1896},
+            {"title": "Дядя Ваня", "releaseYear": 1899},
+            {"title": "Вишнёвый сад", "releaseYear": 1904},
+            {"title": "Палата №6", "releaseYear": 1892},
+            {"title": "Каштанка", "releaseYear": 1887},
+            {"title": "Человек в футляре", "releaseYear": 1898}
+        ]
+    },
+    {
+        "name": "Николай Гоголь",
+        "birthDate": "1809-03-31",
+        "books": [
+            {"title": "Мёртвые души", "releaseYear": 1842},
+            {"title": "Ревизор", "releaseYear": 1836},
+            {"title": "Тарас Бульба", "releaseYear": 1835},
+            {"title": "Вий", "releaseYear": 1835},
+            {"title": "Нос", "releaseYear": 1835},
+            {"title": "Шинель", "releaseYear": 1842}
+        ]
+    },
+    {
+        "name": "Иван Тургенев",
+        "birthDate": "1818-11-09",
+        "books": [
+            {"title": "Отцы и дети", "releaseYear": 1862},
+            {"title": "Дворянское гнездо", "releaseYear": 1859},
+            {"title": "Рудин", "releaseYear": 1856},
+            {"title": "Записки охотника", "releaseYear": 1852},
+            {"title": "Новь", "releaseYear": 1877},
+            {"title": "Ася", "releaseYear": 1858}
+        ]
+    },
+    {
+        "name": "Максим Горький",
+        "birthDate": "1868-03-28",
+        "books": [
+            {"title": "На дне", "releaseYear": 1902},
+            {"title": "Фома Гордеев", "releaseYear": 1899},
+            {"title": "Детство", "releaseYear": 1913},
+            {"title": "В людях", "releaseYear": 1915},
+            {"title": "Мать", "releaseYear": 1906},
+            {"title": "Жизнь Клима Самгина", "releaseYear": 1936}
+        ]
+    },
+    {
+        "name": "Михаил Булгаков",
+        "birthDate": "1891-05-15",
+        "books": [
+            {"title": "Мастер и Маргарита", "releaseYear": 1967},
+            {"title": "Белая гвардия", "releaseYear": 1925},
+            {"title": "Собачье сердце", "releaseYear": 1925},
+            {"title": "Записки юного врача", "releaseYear": 1926},
+            {"title": "Роковые яйца", "releaseYear": 1924},
+            {"title": "Театральный роман", "releaseYear": 1937}
+        ]
+    },
+    {
+        "name": "Андрей Платонов",
+        "birthDate": "1899-08-28",
+        "books": [
+            {"title": "Чевенгур", "releaseYear": 1929},
+            {"title": "Котлован", "releaseYear": 1930},
+            {"title": "Ювенильное море", "releaseYear": 1934},
+            {"title": "Джан", "releaseYear": 1935},
+            {"title": "Счастливая Москва", "releaseYear": 1936},
+            {"title": "Возвращение", "releaseYear": 1946}
+        ]
+    },
+    {
+        "name": "Борис Пастернак",
+        "birthDate": "1890-02-10",
+        "books": [
+            {"title": "Доктор Живаго", "releaseYear": 1957},
+            {"title": "Лейтенант Шмидт", "releaseYear": 1926},
+            {"title": "Девятьсот пятый год", "releaseYear": 1927},
+            {"title": "Вторая тема", "releaseYear": 1929},
+            {"title": "Охранная грамота", "releaseYear": 1931},
+            {"title": "Сестра моя жизнь", "releaseYear": 1922}
+        ]
     }
-  ]
-}
+]

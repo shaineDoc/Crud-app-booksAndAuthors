@@ -12,9 +12,9 @@ import ru.shaineDoc.booksAndAuthors.entity.Book;
 import ru.shaineDoc.booksAndAuthors.mapper.AuthorMapper;
 import ru.shaineDoc.booksAndAuthors.mapper.BookMapper;
 import ru.shaineDoc.booksAndAuthors.service.AuthorService;
+
 import java.net.URI;
 import java.util.List;
-
 
 
 @RestController
@@ -31,6 +31,15 @@ public class AuthorController {
         AuthorDto authorDtoSaved = AuthorMapper.toAuthorDto(authorSaved);
         URI location = URI.create("/authors/" + authorSaved.getId());
         return ResponseEntity.created(location).body(authorDtoSaved);
+    }
+
+    @PostMapping("/create/all")
+    public ResponseEntity<List<AuthorDto>> createListAuthors(@RequestBody List<AuthorDto> authorDtos) {
+        List<Author> authors = authorService.saveAll(authorDtos);
+        List<AuthorDto> authorDtosResponse = authors.stream()
+                .map(AuthorMapper::toAuthorDto)
+                .toList();
+        return ResponseEntity.ok(authorDtosResponse);
     }
 
     @PatchMapping("/update/{id}")
